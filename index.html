@@ -14,67 +14,79 @@
         <div id="top">
             <div id="main-title">
                 <img src="IMG/main-title.png">
-            </div.>
+            </div>
             <div id="top-img">
                 <img src="IMG/top-img.png"> 
             </div>
         </div>
-    <div class="content">
-        <div id="section-2">
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="IMG/2-img/01_ファミリー.jpg"   width="879" height="676px"></div>
-                  <div class="swiper-slide"><img src="IMG/2-img/02_ファミリー.jpg"></div>
-                  <div class="swiper-slide"><img src="IMG/2-img/03_ファミリー.jpg"></div>
-                  <div class="swiper-slide"><img src="IMG/2-img/04_ファミリー.jpg"></div>
-                  <div class="swiper-slide"><img src="IMG/2-img/05_ファミリー.jpg"></div>
+        <div class="content">
+            <div id="section-2">
+                  <div id="title-2">
+                  <img src="IMG/2-title.png">
+                  </div>
+                  <div id="slide-bg">
+                  <img src="IMG/2-slide-bg.png">
+                  </div>
+                  <div class="swiper">
+                      <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="IMG/2-img/01_ファミリー.jpg"   width="879" height="676"></div>
+                      <div class="swiper-slide"><img src="IMG/2-img/02_ファミリー.jpg"> </div>
+                      <div class="swiper-slide"><img src="IMG/2-img/03_ファミリー.jpg"></div>
+                      <div class="swiper-slide"><img src="IMG/2-img/04_ファミリー.jpg"></div>
+                      <div class="swiper-slide"><img src="IMG/2-img/05_ファミリー.jpg"></div>
+                      </div> 
+                    
+                      <!-- If we need navigation buttons -->
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>          
+                  </div>
+                  <div class="plan">
+                  <p>駐車場無料【最大32時間ステイ】<br>
+                    15時から翌23時まで滞在できるバルコニー付き客室</p>
+                    <img src="IMG/reservation-button.png">
+                  <p>駐車場無料【最大32時間ステイ】<br>
+                    朝5時から翌13時まで滞在できるバルコニー付き客室</p>
+                    <img src="IMG/reservation-button.png">
+                  </div>
+              </div>
+
+            <div id="section-3">
+                <div id="title-3">
+                <img src="IMG/3-title.png">
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            </div>
+
+            <div id="section-4">
+            </div>
+
+            <div id="section-5">
+            </div>
+
+            <div id="section-6">
             </div>
         </div>
-        <div id="section-3">
-
-        </div>
-        <div id="section-4">
-
-        </div>
-        <div id="section-5">
-
-        </div>
-        <div id="section-6">
-
-        </div>
-    </div>
 
     </div>
 
-    <!-- Slider main container -->
-<div class="swiper">
-
-
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-
-  <script>swiper = new Swiper('.swiper', {
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  }); 
-  </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+      });
+    </script>
 </body>
 
 </html>
