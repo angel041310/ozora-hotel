@@ -71,6 +71,7 @@ text-align: center;
 
 #section-3{
   background: url(../IMG/bg-img/3-bg.jpg);
+  min-height: 1251px;
 }
 
 #section-3 #title-3 img{
@@ -84,7 +85,9 @@ text-align: center;
 text-align: center;
 padding-right: 45px;
 padding-top: 20px;
+background-color: rgba(255, 255, 255, 0.7);
 }
+
 
 .swiper {
   width: 879px;
@@ -116,9 +119,11 @@ div.swiper-button-next, div.swiper-button-prev {
   object-fit: cover;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet {
   color: #2e96b0;
 }
+
+
 
 @media only screen and (max-width: 1440px){
   
