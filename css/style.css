@@ -27,6 +27,7 @@
   position: sticky;
   top: 0;
   width: 100%;
+  border-radius: 20px;
 }
 
 #main-title, #top-img{
@@ -35,7 +36,6 @@
 
 #section-2{
   background: url(../IMG/bg-img/2-bg.jpg);
-  min-height: 1568px;
 }
 
 #title-2{
@@ -46,7 +46,7 @@
   display: block;  
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .swiper-bg{
@@ -70,7 +70,6 @@
 
 #section-3{
   background: url(../IMG/bg-img/3-bg.jpg);
-  min-height: 1251px;
 }
 
 #collage-3{
@@ -133,7 +132,7 @@
   background-repeat: no-repeat;
   margin-top: 50px;
   margin-bottom: 50px;
-  float: right;
+  margin-left: 170px;
 }
 
 #section-5{
@@ -141,6 +140,94 @@
   min-height: 1484px;
 }
 
+#section-5 .swiper{
+  margin-top: 30px;
+}
+
+#section-5 .desc{
+  padding-top: 80px;
+}
+
+#desc-p-2{
+  text-align: center;
+  font-family: ud-kyokasho;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.rec{
+  display: flex;
+
+}
+
+.rating-bg{
+  background: white;
+  width: 1035px;
+  height: 320px;
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(10px 10px 7px #8b8b8f);
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+#star img{
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+#star-desc{
+  font-family: ud-kyokasho;
+  text-align: center;
+  font-size: 26px;
+
+}
+
+h2{
+  font-family: ud-kyokasho;
+  padding-top: 50px;
+  padding-left: -600px;
+}
+
+span{
+  color: rgb(28, 62, 114);
+}
+
+#note-5{
+  text-align: center;
+  padding-top: 40px;
+  font-family: ud-kyokasho;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#section-6{
+  background: url(../IMG/bg-img/6-bg.jpg);
+  min-height: 406px;
+}
+
+#coupon{
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+#jal-button{
+  float: left;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+#ana-button{
+  float: right;
+  padding-right: 150px;
+  padding-top: 30px;
+}
 .swiper {
   width: 879px;
   height: 676px;
