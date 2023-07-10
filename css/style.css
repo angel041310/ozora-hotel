@@ -36,6 +36,7 @@
 
 #section-2{
   background: url(../IMG/bg-img/2-bg.jpg);
+  padding-bottom: 30px;
 }
 
 #title-2{
@@ -47,6 +48,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .swiper-bg{
@@ -70,6 +72,7 @@
 
 #section-3{
   background: url(../IMG/bg-img/3-bg.jpg);
+  padding-bottom: 30px;
 }
 
 #collage-3{
@@ -141,7 +144,7 @@
 }
 
 #section-5 .swiper{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #section-5 .desc{
