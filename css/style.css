@@ -43,7 +43,7 @@
   padding-bottom: 10px;
 }
 
-#section-2 #title-2 img, #section-3 #title-3 img, #section-4 #title-4 img, #section-5 #title-5 img{
+#section-2 #title-2 img, #section-3 #title-3 img, #section-4 #title-4 img{
   display: block;  
   margin-left: auto;
   margin-right: auto;
@@ -108,6 +108,10 @@
   min-height: 1799px;
 }
 
+#section-4 #title-4 img{
+  padding-bottom: 30px;
+}
+
 .desc{
   text-align: center;
   padding-top: 20px;
@@ -168,8 +172,41 @@
   margin-top: 20px;
 }
 
+#section-5 #title-5 img{
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#swiper-5{
+  z-index: 3;
+  position: relative;
+}
+
+#swiper-5::before{
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 550px;
+  left: 0px;
+  right: 0px;
+  top: 140px;
+  bottom: 0;
+  z-index: 1;
+}
+
+#section-5 .swiper-wrapper img{
+  filter: drop-shadow(10px 10px 7px #8b8b8f);
+  position: relative;
+  max-height: 590px;
+  z-index: 2;
+}
+
 #section-5 .desc{
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 #desc-p-2{
@@ -184,30 +221,41 @@
 
 }
 
-.rating-bg{
-  background: white;
+#star{
+  position: relative;
+  z-index: 1;
+}
+
+#star::before{
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 1);
   width: 1035px;
-  height: 320px;
-  display: block;  
-  margin-left: auto;
-  margin-right: auto;
-  filter: drop-shadow(10px 10px 7px #8b8b8f);
+  height: 276px;
+  left: 200px;
+  right: 200px;
+  top: 60px;
+  z-index: -1;
   border-radius: 15px;
-  margin-top: 30px;
+  filter: drop-shadow(10px 10px 5px #b4b4b4);
 }
 
 #star img{
-  display: block;  
+  position: relative;  
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   padding-top: 20px;
+  z-index: 3;
 }
 
 #star-desc{
+  position: relative;
   font-family: ud-kyokasho;
   text-align: center;
   font-size: 26px;
-
+  z-index: 3;
 }
 
 h2{
@@ -222,11 +270,13 @@ span{
 
 #note-5{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
   font-family: ud-kyokasho;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
+  position: relative;
+  z-index: 3;
 }
 
 #section-6{
@@ -278,6 +328,8 @@ div.swiper-button-next, div.swiper-button-prev {
 
 .swiper-pagination-bullet {
   --swiper-pagination-color: rgba(46, 150, 176, 1);
+  --swiper-pagination-top: 60px;
+  z-index: 5;
 }
 
 .swiper-button-next, .swiper-button-prev {
