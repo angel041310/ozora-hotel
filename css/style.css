@@ -24,6 +24,7 @@
 #top{
   background: #fff;
   width: 100%;
+  z-index: 5;
 }
 
 #top-pic{
@@ -52,7 +53,6 @@
   line-height: 50px;
   color: #0d4f67;
   font-size: 35px;
-  z-index: 3;
 }
 
 #lead-text::before{
