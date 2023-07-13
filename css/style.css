@@ -3,6 +3,11 @@
   src: url(../font/UDDigiKyokashoN-R.ttc);
 }
 
+@font-face {
+  font-family: nishiki-teki;
+  src: url(../font/nishiki-teki.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -18,7 +23,49 @@
 
 #top{
   background: #fff;
+  width: 100%;
 }
+
+#top-pic{
+  position: relative;
+}
+
+#lead-text-bg{
+  text-align: left;
+  position: absolute;
+  padding-top: 800px;
+  z-index: 4;
+  font-family: nishiki-teki;
+  line-height: 50px;
+  color: #0d4f67;
+  font-size: 35px;
+  z-index: 2;
+}
+
+#lead-text{
+  text-align: left;
+  position: absolute;
+  padding-top: 870px;
+  padding-left: 50px;
+  z-index: 4;
+  font-family: nishiki-teki;
+  line-height: 50px;
+  color: #0d4f67;
+  font-size: 35px;
+  z-index: 3;
+}
+
+#lead-text::before{
+  background: url(../IMG/lead-text-bg.png);
+  position: relative;
+  z-index: 10;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
 
 #main-title{
   background-color: #fff;
@@ -28,6 +75,8 @@
   top: 0;
   width: 100%;
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main-title, #top-img{
@@ -37,6 +86,7 @@
 #section-2{
   background: url(../IMG/bg-img/2-bg.jpg);
   padding-bottom: 30px;
+  position: relative;
 }
 
 #title-2{
@@ -48,6 +98,10 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+}
+
+.reservation-button{
+  padding-top: 20px
 }
 
 .swiper-bg{
@@ -74,6 +128,10 @@
   padding-bottom: 30px;
 }
 
+#section-3 p{
+  padding-top: 50px;
+}
+
 #collage-3{
   text-align: center;
   position: relative;
@@ -96,6 +154,7 @@
 #collage-3 img{
   position: relative;
   z-index: 2;
+  width: 60%;
 }
 
 .desc, .plan{
@@ -177,7 +236,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 #swiper-5{
@@ -201,12 +260,9 @@
 #section-5 .swiper-wrapper img{
   filter: drop-shadow(10px 10px 7px #8b8b8f);
   position: relative;
-  max-height: 590px;
+  max-height: 700px;
   z-index: 2;
-}
-
-#section-5 .desc{
-  padding-top: 120px;
+  padding-top: 30px;
 }
 
 #desc-p-2{
@@ -270,7 +326,7 @@ span{
 
 #note-5{
   text-align: center;
-  padding-top: 60px;
+  padding-top: 100px;
   font-family: ud-kyokasho;
   font-weight: bold;
   font-size: 18px;
@@ -303,7 +359,7 @@ span{
   padding-top: 30px;
 }
 .swiper {
-  width: 879px;
+  width: 75%;
   max-height: 800px;
 }
 
@@ -314,14 +370,13 @@ div.swiper-button-next, div.swiper-button-prev {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .swiper-slide img {
-  width: 100%;
+  width: 80%;
   height: 100%;
   object-fit: cover;
 }
@@ -329,15 +384,19 @@ div.swiper-button-next, div.swiper-button-prev {
 .swiper-pagination-bullet {
   --swiper-pagination-color: rgba(46, 150, 176, 1);
   --swiper-pagination-top: 60px;
-  z-index: 5;
+  --swiper-pagination-bullet-horizontal-gap: 8px;
+  --swiper-pagination-bullet-size:12px;
 }
 
 .swiper-button-next, .swiper-button-prev {
   outline: none;
   --swiper-navigation-color: rgba(46, 150, 176, 1);
   --swiper-navigation-size: 70px;
-  --swiper-navigation-sides-offset: 0px;
-  }
+}
+
+/* .swiper-button-next:after, .swiper-button-prev:after {
+  --swiper-navigation-sides-offset: -100px;
+} */
 
   .swiper{    
     overflow: overlay;
