@@ -64,8 +64,8 @@
 }
 
 .btn:hover{
-  background-color: #f5e05a;
-  color: rgb(46, 46, 46);
+  background-color: #ffffff;
+  color: #134753;
   cursor: pointer;
 }
 
@@ -477,9 +477,9 @@ div.swiper-button-next, div.swiper-button-prev {
   --swiper-navigation-sides-offset: -100px;
 } */
 
-  .swiper{    
-    overflow: overlay;
-  }
+.swiper{    
+  overflow: overlay;
+}
 
 @media only screen and (max-width: 1440px){
   
