@@ -416,23 +416,23 @@ h2{
 
 #jal-button{
   padding-top: 50px;
-  padding-left: 200px;
+  padding-left: 100px;
 }
 
 #jal-button button{
   float: left;
-  max-width: 500px;
+  width: 550px;
   height: 92px;
   font-size: 32px;
 }
 
 #ana-button{
-  padding-right: 200px;
+  padding-right: 100px;
 }
 
 #ana-button button{
   float: right;
-  width: 500px;
+  width: 550px;
   height: 92px;
   font-size: 32px;
 }
