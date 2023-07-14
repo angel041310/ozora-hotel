@@ -470,7 +470,7 @@ div.swiper-button-next, div.swiper-button-prev {
 .swiper-button-next, .swiper-button-prev {
   outline: none;
   --swiper-navigation-color: rgba(46, 150, 176, 1);
-  --swiper-navigation-size: 70px;
+  --swiper-navigation-size: 90px;
 }
 
 /* .swiper-button-next:after, .swiper-button-prev:after {
