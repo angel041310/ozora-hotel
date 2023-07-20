@@ -802,7 +802,7 @@ div.swiper-button-next, div.swiper-button-prev {
   .swiper-wrapper{
     overflow: hidden;
   }
-
+  
   #swiper-5::before{
     content: "";
     position: absolute;
@@ -837,7 +837,7 @@ div.swiper-button-next, div.swiper-button-prev {
   }
 
   #desc-p-2{
-    font-size: 6px;
+    font-size: 8px;
   }
 
   #star{
