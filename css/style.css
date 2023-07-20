@@ -332,6 +332,10 @@
   padding-top: 10px;
 }
 
+#desc-5-sp{
+  display: none;
+}
+
 #desc-p-2{
   text-align: center;
   font-family: ud-kyokasho;
@@ -400,6 +404,10 @@ h2{
   line-height: 25px;
   position: relative;
   z-index: 3;
+}
+
+#note-5-sp{
+  display: none;
 }
 
 #section-6{
@@ -759,6 +767,8 @@ div.swiper-button-next, div.swiper-button-prev {
     position: relative;
     z-index: 3;
     line-height: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   #section-5{
@@ -776,9 +786,14 @@ div.swiper-button-next, div.swiper-button-prev {
     margin-top: 10px;
   }
   
-  #swiper-5{
+  #swiper-5 img{
     z-index: 3;
     position: relative;
+    height: 195px;
+  }
+  
+  #swiper-5 #swiper-wrapper{
+    overflow: hidden;
   }
   
   #swiper-5::before{
@@ -807,6 +822,7 @@ div.swiper-button-next, div.swiper-button-prev {
   }
 
   #desc-5-sp{
+    display: block;
     margin-left: 30px;
     margin-right: 30px;
     padding-top: 10px;
@@ -863,6 +879,7 @@ div.swiper-button-next, div.swiper-button-prev {
   }
 
   #note-5-sp{
+    display: block;
     font-family: ud-kyokasho;
     font-weight: bold;
     text-align: center;
