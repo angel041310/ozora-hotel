@@ -671,6 +671,7 @@ div.swiper-button-next, div.swiper-button-prev {
 
   #section-3 .plan{
     padding-top: 15px;
+    font-size: 8px;
   }
 
   .desc, .plan{
@@ -802,7 +803,7 @@ div.swiper-button-next, div.swiper-button-prev {
   .swiper-wrapper{
     overflow: hidden;
   }
-  
+
   #swiper-5::before{
     content: "";
     position: absolute;
