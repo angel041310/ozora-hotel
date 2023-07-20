@@ -708,6 +708,7 @@ div.swiper-button-next, div.swiper-button-prev {
     padding-top: 0px;
     padding-left: 0px;
     text-align: center;
+    font-size: 8px;
   }
 
   .plan-1 button{
@@ -731,6 +732,7 @@ div.swiper-button-next, div.swiper-button-prev {
     padding-left: 27px;
     padding-top: 50px;
     padding-right: 0px;
+    font-size: 8px;
   }
   
   .plan-2 button{
@@ -786,16 +788,21 @@ div.swiper-button-next, div.swiper-button-prev {
     margin-top: 10px;
   }
   
+  #swiper-5{
+    overflow: hidden;
+  }
+
   #swiper-5 img{
     z-index: 3;
     position: relative;
-    height: 195px;
-  }
-  
-  #swiper-5 #swiper-wrapper{
+    height: 295px;
     overflow: hidden;
   }
   
+  .swiper-wrapper{
+    overflow: hidden;
+  }
+
   #swiper-5::before{
     content: "";
     position: absolute;
@@ -810,7 +817,7 @@ div.swiper-button-next, div.swiper-button-prev {
   }
   
   #section-5 .swiper-wrapper img{
-    filter: drop-shadow(10px 10px 7px #8b8b8f);
+    filter: drop-shadow(5px 4px 3px #8b8b8f);
     top: -40px;
     position: relative;
     z-index: 2;
@@ -999,6 +1006,7 @@ div.swiper-button-next, div.swiper-button-prev {
   
   .swiper-slide img {
     width: 90%;
+    height: 80%;
     object-fit: cover;
   }
 
