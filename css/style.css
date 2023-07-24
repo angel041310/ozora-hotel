@@ -89,6 +89,13 @@
   z-index: 5;
 }
 
+#sunray{
+  float: right;
+  z-index: 6;
+  margin-top: -1370px;
+  margin-left: 920px;
+}
+
 #top-pic{
   width: auto;
   position: relative;
@@ -585,6 +592,7 @@ div.swiper-button-next, div.swiper-button-prev {
   overflow: overlay;
 }
 
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -611,6 +619,13 @@ div.swiper-button-next, div.swiper-button-prev {
   #top{
     background: #fff;
     width: 375px;
+    z-index: 5;
+  }
+
+  #sunray-sp{
+    float: right;
+    margin-top: -380px;
+    margin-left: 250px;
     z-index: 5;
   }
 
